@@ -1,0 +1,45 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-content {
+    width: 100%;
+    display: flex;
+  }
+  .about-us {
+    width: 40%;
+  }
+  
+  .about-us h3,
+  .link-contract h3 {
+    font-size: 40px;
+  }
+  
+  .about-us p,
+  .link-contract p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+  
+  .link-contract {
+    margin-left: auto;
+  }
+  
+  .link-contract a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link-contract a:hover {
+    text-decoration: underline;
+  }
+  

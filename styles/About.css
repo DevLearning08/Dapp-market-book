@@ -1,0 +1,55 @@
+.section-title {
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 16%;
+    background: antiquewhite;
+    border-radius: 37px;
+  }
+  
+  .team-member-image {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 25px;
+  }
+  
+  .team-member-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team-member-name,
+  .team-member-role,
+  .team-member-info {
+    margin: 0;
+  }
+  
+  .team-member-role {
+    margin-bottom: 5px;
+  }
+  
+  .team-member-info {
+    margin-bottom: 15px;
+  }
+  
+  .team-member:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
